@@ -1,0 +1,34 @@
+——创建版本库：
+	mkdir learngit
+	cd learngit（选择文件夹）
+	pwd(显示当前目录)
+	
+——把目录变成可以管理的仓库
+	git init
+	
+——把文件添加到仓库
+	git add 文件
+	
+——把文件提交到仓库（可以一次提交多个文件）
+	git commit -m "提交说明"
+	
+——查看仓库当前状态
+	git status
+	
+——查看仓库文件内容
+	git diff 文件
+	
+——显示最近到最远的提交日志
+	git log
+	git log --pretty=oneline(显示更简洁)
+	
+——回退到之前的版本
+	git reset --hard 版本号
+	
+——查看文件内容
+	cat 文件
+	
+——查看命令记录
+	git reflog
+	
+——
