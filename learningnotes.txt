@@ -31,4 +31,11 @@
 ——查看命令记录
 	git reflog
 	
-——
+——查看工作区和版本库区别
+	git diff HEAD -- 文件名
+	
+——丢弃工作区的修改
+	git checkout -- 文件名
+
+
+	
