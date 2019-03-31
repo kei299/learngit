@@ -37,5 +37,7 @@
 ——丢弃工作区的修改
 	git checkout -- 文件名
 
+——撤销暂存区的修改
+	git reset HEAD 文件名
 
 	
