@@ -1,6 +1,6 @@
 ——创建版本库：
-	mkdir learngit
-	cd learngit（选择文件夹）
+	mkdir 版本库名称
+	cd 版本库名称（选择文件夹）
 	pwd(显示当前目录)
 	
 ——把目录变成可以管理的仓库
