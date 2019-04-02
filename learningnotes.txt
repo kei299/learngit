@@ -63,4 +63,22 @@
 ——显示库内文件
 	ls
 	
+——创建并切换分支(-b表示创建并切换)
+	git checkout -b 分支名
+	git branch 分支名（创建分支）
+	git checkout 分支名（切换分支）
 
+——指定分支合并到当前分支
+	git merge 指定分支
+	
+——删除分支
+	git branch -d 分支名
+	
+——查看分支合并情况
+	git log --graph
+
+——禁用快速合并合并分支并创建新commit
+	git merge --no-ff -m "描述" 分支名
+	//--no-ff 表示禁用fast forward
+	-m //创建一个新的commit
+	
